@@ -1,4 +1,6 @@
-.gradle/
-build/
-.kotlin/
 .zed/
+.gradle/
+.kotlin/
+build/
+resources/manifest.json
+devserver/
