@@ -1,24 +1,25 @@
 general.qualities.Carnal=Carnal
+general.qualities.Osseous=Osseous
+general.qualities.Sanguine=Sanguine
+general.qualities.Toxic=Toxic
+general.qualities.Malefic=Malefic
+
 items.Ore_Carnite.name=Carnite Ore
 items.Ore_Carnite.description=Of torn sinew and ruined flesh was this ore born — the meat of something vast, long dead, yet never still. It remembers the wound that made it.
 items.Ore_Carnite_Stone.name=Carnite Ore - Stone
 
-general.qualities.Osseus=Osseus
 items.Ore_Ossite.name=Ossite Ore
 items.Ore_Ossite.description=Pale as the marrow-stone of forgotten giants, cold to the touch and unyielding. What once gave form to the formless now endures beyond all reckoning.
 items.Ore_Ossite_Stone.name=Ossite Ore - Stone
 
-general.qualities.Sanguine=Sanguine
 items.Ore_Sangite.name=Sangite Ore
 items.Ore_Sangite.description=Here lies the lifeblood of that which should not have bled — rich and terrible, warm still after aeons uncounted. It sings when struck, and the song is hunger.
 items.Ore_Sangite_Stone.name=Sangite Ore - Stone
 
-general.qualities.Spiteful=Spiteful
-items.Ore_Venite.name=Venite Ore
-items.Ore_Venite.description=From spite alone was this venom wrought. No creature bore it; no fang delivered it. It is hatred given substance — green and seething and patient beyond mortal ken.
-items.Ore_Venite_Stone.name=Venite Ore - Stone
+items.Ore_Toxite.name=Toxite Ore
+items.Ore_Toxite.description=From spite alone was this venom wrought. No creature bore it; no fang delivered it. It is hatred given substance — green and seething and patient beyond mortal ken.
+items.Ore_Toxite_Stone.name=Toxite Ore - Stone
 
-general.qualities.Malefic=Malefic
 items.Ore_Malite.name=Malite Ore
 items.Ore_Malite.description=Gaze not long upon it, for it is the last and truest darkness. All that was sacred it unmakes. All that was whole it devours. It is the will of ruin, and it suffers no light.
 items.Ore_Malite_Stone.name=Malite Ore - Stone

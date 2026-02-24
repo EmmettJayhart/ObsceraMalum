@@ -1,13 +1,13 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Ore_Ossite.name",
-    "Description": "server.items.Ore_Ossite.description"
+    "Name": "server.items.Ore_Toxite.name",
+    "Description": "server.items.Ore_Toxite.description"
   },
   "Categories": ["Blocks.Ores", "ObsceraMalumCategory.Ores"],
   "Recipe": {
     "Input": [
       {
-        "ResourceTypeId": "Salvage_Ossite",
+        "ResourceTypeId": "Salvage_Toxite",
         "Quantity": 1
       }
     ],
@@ -19,9 +19,9 @@
     ],
     "TimeSeconds": 4
   },
-  "Icon": "Icons/ItemsGenerated/Ore_Ossite.png",
+  "Icon": "Icons/ItemsGenerated/Ore_Toxite.png",
   "Model": "Resources/Ores/Ore_Large.blockymodel",
-  "Texture": "Resources/Ores/Ore_Textures/Ossite.png",
+  "Texture": "Resources/Ores/Ore_Textures/Toxite.png",
   "ItemLevel": 10,
   "PlayerAnimationsId": "Block",
   "IconProperties": {
@@ -36,7 +36,7 @@
     "ParticleSystemId": null
   },
   "MaxStack": 25,
-  "ItemSoundSetId": "ISS_Items_Bones",
+  "ItemSoundSetId": "ISS_Items_Ingots",
   "DropOnDeath": true,
-  "Quality": "Osseous"
+  "Quality": "Toxic"
 }

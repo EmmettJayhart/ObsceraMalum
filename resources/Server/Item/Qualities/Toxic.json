@@ -1,0 +1,15 @@
+{
+  "QualityValue": 5,
+  "ItemTooltipTexture": "UI/ItemQualities/Tooltips/ItemTooltipToxic.png",
+  "ItemTooltipArrowTexture": "UI/ItemQualities/Tooltips/ItemTooltipToxicArrow.png",
+  "SlotTexture": "UI/ItemQualities/Slots/SlotToxic.png",
+  "BlockSlotTexture": "UI/ItemQualities/Slots/SlotToxic.png",
+  "SpecialSlotTexture": "UI/ItemQualities/Slots/SlotToxic.png",
+  "TextColor": "#8faf34",
+  "LocalizationKey": "server.general.qualities.Toxic",
+  "VisibleQualityLabel": true,
+  "RenderSpecialSlot": true,
+  "ItemEntityConfig": {
+    "ParticleSystemId": "Drop_Toxic"
+  }
+}

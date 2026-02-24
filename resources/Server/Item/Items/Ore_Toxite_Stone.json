@@ -1,8 +1,8 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Ore_Ossite_Stone.name"
+    "Name": "server.items.Ore_Toxite_Stone.name"
   },
-  "Icon": "Icons/ItemsGenerated/Ore_Ossite_Stone.png",
+  "Icon": "Icons/ItemsGenerated/Ore_Toxite_Stone.png",
   "Categories": ["Blocks.Ores", "ObsceraMalumCategory.Ores"],
   "BlockType": {
     "Material": "Solid",
@@ -10,7 +10,7 @@
     "CustomModel": "Resources/Ores/Ore_Large.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/Ores/Ore_Textures/Ossite.png",
+        "Texture": "Resources/Ores/Ore_Textures/Toxite.png",
         "Weight": 1
       }
     ],
@@ -19,7 +19,7 @@
     "RandomRotation": "YawStep90",
     "Gathering": {
       "Breaking": {
-        "GatherType": "OreIron",
+        "GatherType": "OreAdamantite",
         "DropList": {
           "Container": {
             "Type": "Multiple",
@@ -27,7 +27,7 @@
               {
                 "Type": "Single",
                 "Item": {
-                  "ItemId": "Ore_Ossite"
+                  "ItemId": "Ore_Toxite"
                 }
               },
               {
@@ -54,7 +54,7 @@
   "PlayerAnimationsId": "Block",
   "Tags": {
     "Type": ["Ore"],
-    "Family": ["Ossite"]
+    "Family": ["Toxite"]
   },
   "MaxStack": 25,
   "ItemSoundSetId": "ISS_Blocks_Stone",
@@ -63,5 +63,5 @@
     "Rotation": [22.5, 45, 22.5],
     "Translation": [0, -13.5]
   },
-  "Quality": "Osseous"
+  "Quality": "Toxic"
 }
