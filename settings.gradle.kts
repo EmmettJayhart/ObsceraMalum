@@ -1,6 +1,6 @@
 import dev.scaffoldit.hytale.wire.HytaleManifest.Author
 
-rootProject.name = "io.jayhart.hytale.obsceramalum"
+rootProject.name = "ObsceraMalum"
 
 plugins {
     id("dev.scaffoldit") version "+"
@@ -11,7 +11,7 @@ hytale {
     useFlat()
 
     manifest {
-        Group = "io.jayhart.hytale.obsceramalum"
+        Group = "io.jayhart.hytale"
         Name = "Obscera Malum"
         Version = "0.1.0"
         Description = "Silentium nomen suum meminit"
@@ -23,13 +23,15 @@ hytale {
             )
         )
         Website = "https://hytale.jayhart.io/obsceramalum"
+        Main = "io.jayhart.hytale.ObsceraMalum"
         ServerVersion = "*"
         Dependencies = mapOf(
             "AmoAster:Kytale" to "*"
         )
         OptionalDependencies = emptyMap()
+        LoadBefore = emptyMap()
         DisabledByDefault = false
         IncludesAssetPack = true
-        Main = "io.jayhart.hytale.obsceramalum.ObsceraMalum"
+        SubPlugins = emptyList()
     }
 }

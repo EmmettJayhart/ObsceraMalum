@@ -1,0 +1,54 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ore_Sangite.name",
+    "Description": "server.items.Ore_Sangite.description"
+  },
+  "Categories": [
+    "Blocks.Ores",
+    "ObsceraMalumCategory.Ores"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Salvage_Sangite",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Salvagebench"
+      }
+    ],
+    "TimeSeconds": 4
+  },
+  "Icon": "Icons/ItemsGenerated/Ore_Sangite.png",
+  "Model": "Resources/Ores/Ore_Large.blockymodel",
+  "Texture": "Resources/Ores/Ore_Textures/Sangite.png",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.57323,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -3.6,
+      -16.2
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ore"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "MaxStack": 25,
+  "ItemSoundSetId": "ISS_Items_Gems",
+  "DropOnDeath": true,
+  "Quality": "Sanguine"
+}

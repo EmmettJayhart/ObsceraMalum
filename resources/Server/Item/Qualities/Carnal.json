@@ -1,0 +1,15 @@
+{
+  "QualityValue": 5,
+  "ItemTooltipTexture": "UI/ItemQualities/Tooltips/ItemTooltipCarnal.png",
+  "ItemTooltipArrowTexture": "UI/ItemQualities/Tooltips/ItemTooltipCarnalArrow.png",
+  "SlotTexture": "UI/ItemQualities/Slots/SlotCarnal.png",
+  "BlockSlotTexture": "UI/ItemQualities/Slots/SlotCarnal.png",
+  "SpecialSlotTexture": "UI/ItemQualities/Slots/SlotCarnal.png",
+  "TextColor": "#2b2b2b",
+  "LocalizationKey": "server.general.qualities.Carnal",
+  "VisibleQualityLabel": true,
+  "RenderSpecialSlot": true,
+  "ItemEntityConfig": {
+    "ParticleSystemId": "Drop_Legendary"
+  }
+}

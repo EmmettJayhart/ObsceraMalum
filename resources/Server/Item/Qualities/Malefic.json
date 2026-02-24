@@ -1,0 +1,15 @@
+{
+  "QualityValue": 5,
+  "ItemTooltipTexture": "UI/ItemQualities/Tooltips/ItemTooltipMalefic.png",
+  "ItemTooltipArrowTexture": "UI/ItemQualities/Tooltips/ItemTooltipMaleficArrow.png",
+  "SlotTexture": "UI/ItemQualities/Slots/SlotMalefic.png",
+  "BlockSlotTexture": "UI/ItemQualities/Slots/SlotMalefic.png",
+  "SpecialSlotTexture": "UI/ItemQualities/Slots/SlotMalefic.png",
+  "TextColor": "#7b2fbe",
+  "LocalizationKey": "server.general.qualities.Malefic",
+  "VisibleQualityLabel": true,
+  "RenderSpecialSlot": true,
+  "ItemEntityConfig": {
+    "ParticleSystemId": "Drop_Legendary"
+  }
+}

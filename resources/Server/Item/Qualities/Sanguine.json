@@ -1,0 +1,15 @@
+{
+  "QualityValue": 5,
+  "ItemTooltipTexture": "UI/ItemQualities/Tooltips/ItemTooltipSanguine.png",
+  "ItemTooltipArrowTexture": "UI/ItemQualities/Tooltips/ItemTooltipSanguineArrow.png",
+  "SlotTexture": "UI/ItemQualities/Slots/SlotSanguine.png",
+  "BlockSlotTexture": "UI/ItemQualities/Slots/SlotSanguine.png",
+  "SpecialSlotTexture": "UI/ItemQualities/Slots/SlotSanguine.png",
+  "TextColor": "#d4a017",
+  "LocalizationKey": "server.general.qualities.Sanguine",
+  "VisibleQualityLabel": true,
+  "RenderSpecialSlot": true,
+  "ItemEntityConfig": {
+    "ParticleSystemId": "Drop_Legendary"
+  }
+}

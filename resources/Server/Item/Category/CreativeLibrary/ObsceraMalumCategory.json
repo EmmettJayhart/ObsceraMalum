@@ -1,0 +1,13 @@
+{
+  "Icon": "Icons/ItemCategories/ObsceraMalumCategory.png",
+  "Order": 4,
+  "Children": [
+    {
+      "Id": "Ores",
+      "Name": "server.ui.itemcategory.ores",
+      "Icon": "Icons/ItemCategories/Natural-Ore.png"
+    }
+  ],
+  "Id": "ObsceraMalumCategory",
+  "Name": "Obscera Malum"
+}
