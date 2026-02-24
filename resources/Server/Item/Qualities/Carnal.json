@@ -5,11 +5,11 @@
   "SlotTexture": "UI/ItemQualities/Slots/SlotCarnal.png",
   "BlockSlotTexture": "UI/ItemQualities/Slots/SlotCarnal.png",
   "SpecialSlotTexture": "UI/ItemQualities/Slots/SlotCarnal.png",
-  "TextColor": "#2b2b2b",
+  "TextColor": "#6b3a2a",
   "LocalizationKey": "server.general.qualities.Carnal",
   "VisibleQualityLabel": true,
   "RenderSpecialSlot": true,
   "ItemEntityConfig": {
-    "ParticleSystemId": "Drop_Legendary"
+    "ParticleSystemId": "Drop_Corruption"
   }
 }

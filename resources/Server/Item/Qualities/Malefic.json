@@ -10,6 +10,6 @@
   "VisibleQualityLabel": true,
   "RenderSpecialSlot": true,
   "ItemEntityConfig": {
-    "ParticleSystemId": "Drop_Legendary"
+    "ParticleSystemId": "Drop_Corruption"
   }
 }

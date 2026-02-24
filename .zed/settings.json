@@ -1,0 +1,12 @@
+{
+  "hidden_files": [
+    ".zed/",
+    ".gradle/",
+    ".kotlin/",
+    "build/",
+    "devserver/",
+    "gradle",
+    "gradlew",
+    "gradlew.bat",
+  ],
+}
