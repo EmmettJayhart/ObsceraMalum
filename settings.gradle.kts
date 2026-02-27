@@ -7,12 +7,8 @@ plugins {
 }
 
 hytale {
-    repositories {
-        mavenLocal()
-    }
-
-    useKotlin()
     useFlat()
+    useKotlin()
 
     manifest {
         Group = "io.jayhart.hytale"
