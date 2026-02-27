@@ -7,12 +7,16 @@ plugins {
 }
 
 hytale {
+    repositories {
+        mavenLocal()
+    }
+
     useKotlin()
     useFlat()
 
     manifest {
         Group = "io.jayhart.hytale"
-        Name = "Obscera Malum"
+        Name = "ObsceraMalum"
         Version = "0.1.0"
         Description = "Silentium nomen suum meminit"
         Authors = listOf(
@@ -23,8 +27,8 @@ hytale {
             )
         )
         Website = "https://hytale.jayhart.io/obsceramalum"
-        Main = "io.jayhart.hytale.ObsceraMalum"
-        ServerVersion = "*"
+        Main = "io.jayhart.hytale.obsceramalum.ObsceraMalumPlugin"
+        ServerVersion = "2026.02.19-1a311a592"
         Dependencies = mapOf(
             "AmoAster:Kytale" to "*"
         )
