@@ -3,11 +3,13 @@ import dev.scaffoldit.hytale.wire.HytaleManifest.Author
 rootProject.name = "ObsceraMalum"
 
 plugins {
-    id("dev.scaffoldit") version "+"
+    id("dev.scaffoldit") version "0.2.+"
 }
 
 hytale {
     useFlat()
+    usePatchline("release")
+    useVersion("latest")
     useKotlin()
 
     manifest {
@@ -25,9 +27,7 @@ hytale {
         Website = "https://hytale.jayhart.io/obsceramalum"
         Main = "io.jayhart.hytale.obsceramalum.ObsceraMalumPlugin"
         ServerVersion = "2026.02.19-1a311a592"
-        Dependencies = mapOf(
-            "AmoAster:Kytale" to "*"
-        )
+        Dependencies = emptyMap()
         OptionalDependencies = emptyMap()
         LoadBefore = emptyMap()
         DisabledByDefault = false
